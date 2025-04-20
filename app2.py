@@ -20,7 +20,8 @@ def cambiar_escena(nueva_escena):
 def mostrar_inicio():
     
     # URL del archivo Excel en GitHub (asegúrate de usar la URL "raw")
-    st.session_state.data = "https://raw.githubusercontent.com/tu-usuario/tu-repo/main/data/archivo.xlsx"
+    #st.session_state.data = "https://raw.githubusercontent.com/tu-usuario/tu-repo/main/data/archivo.xlsx"
+    st.session_state.data = pd.read_excel("Hola.xlsx")
 
 
     if st.session_state.scene == "inicio":
