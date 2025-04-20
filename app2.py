@@ -249,8 +249,6 @@ def mostrar_resultados():
 # ---------- MOSTRAR ESCENA SEGÚN ESTADO ----------
 if st.session_state.scene == "inicio":
     mostrar_inicio()
-elif st.session_state.scene == "cargar":
-    mostrar_carga()
 elif st.session_state.scene == "seleccion":
     mostrar_seleccion()
 elif st.session_state.scene == "resultados":
