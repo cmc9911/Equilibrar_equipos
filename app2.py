@@ -20,7 +20,7 @@ def cambiar_escena(nueva_escena):
 def mostrar_inicio():
     
     # URL del archivo Excel en GitHub (asegúrate de usar la URL "raw")
-    url = "https://raw.githubusercontent.com/tu-usuario/tu-repo/main/data/archivo.xlsx"
+    url = "https://github.com/cmc9911/Equilibrar_equipos/blob/main/Hola.xlsx"
     st.session_state.data = pd.read_excel(url)
     #st.session_state.data = pd.read_excel("Hola.xlsx")
 
